@@ -12,11 +12,12 @@ from homeassistant.const import (
     CONF_NAME, CONF_USERNAME, CONF_PASSWORD, CONF_AUTHENTICATION,
     HTTP_BASIC_AUTHENTICATION, HTTP_DIGEST_AUTHENTICATION, CONF_SCAN_INTERVAL)
 from homeassistant.components.mjpeg.camera import (CONF_MJPEG_URL, CONF_STILL_IMAGE_URL)
+from homeassistant.components.network import async_get_source_ip
+from homeassistant.components.network.const import PUBLIC_TARGET_IP
 from homeassistant.const import (EVENT_HOMEASSISTANT_STOP)
 from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers import discovery
 from homeassistant.helpers.event import async_call_later
-from homeassistant.util import get_local_ip
 
 _LOGGER = logging.getLogger(__name__)
 

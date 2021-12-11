@@ -2,7 +2,7 @@
   "domain": "nipca",
   "name": "nipca dlink cameras",
   "documentation": "https://github.com/yottatsa/hass_nipca",
-  "dependencies": ["api"],
+  "dependencies": ["api", "network"],
   "license": "",
   "codeowners": ["@fcastroruiz", "@yottatsa", "@uncle-yura"],
   "requirements": ["pyupnp_async"]
