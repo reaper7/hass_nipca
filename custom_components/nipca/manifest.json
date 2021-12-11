@@ -1,6 +1,7 @@
 {
   "domain": "nipca",
   "name": "nipca dlink cameras",
+  "version": "1.0.1",
   "documentation": "https://github.com/yottatsa/hass_nipca",
   "dependencies": ["api", "network"],
   "license": "",
